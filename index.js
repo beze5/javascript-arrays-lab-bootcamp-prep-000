@@ -26,8 +26,8 @@ function appendKitten(name){
 
 function prependKitten(name){
   let moreKittens = [name];
-  var moreKittens = moreKittens.concat(kittens);
-  return moreKittens;
+  var evenMoreKittens = moreKittens.concat(kittens);
+  return evenMoreKittens;
 }
 
 function removeLastKitten(){
