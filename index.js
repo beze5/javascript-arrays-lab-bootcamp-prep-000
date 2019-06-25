@@ -28,3 +28,7 @@ function prependKitten(name){
   var moreKittens = kittens.unshift(name);
   return moreKittens;
 }
+
+function removeLastKitten(){
+  
+}
